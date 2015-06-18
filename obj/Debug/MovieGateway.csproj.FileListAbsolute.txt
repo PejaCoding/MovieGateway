@@ -1,0 +1,15 @@
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\MovieGateway.exe.config
+E:\Mega\Projects\MovieGateway\MovieGateway\obj\Debug\MovieGateway.csprojResolveAssemblyReference.cache
+E:\Mega\Projects\MovieGateway\MovieGateway\obj\Debug\MovieGateway.Properties.Resources.resources
+E:\Mega\Projects\MovieGateway\MovieGateway\obj\Debug\MovieGateway.csproj.GenerateResource.Cache
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\MovieGateway.exe
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\MovieGateway.pdb
+E:\Mega\Projects\MovieGateway\MovieGateway\obj\Debug\MovieGateway.exe
+E:\Mega\Projects\MovieGateway\MovieGateway\obj\Debug\MovieGateway.pdb
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\nUpdate.dll
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\Newtonsoft.Json.dll
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\nUpdate.pdb
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\nUpdate.xml
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\Newtonsoft.Json.pdb
+E:\Mega\Projects\MovieGateway\MovieGateway\bin\Debug\Microsoft.Threading.Tasks.xml
