@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using MovieGateway.Properties;
-using nUpdate.Updating;
 
 namespace MovieGateway
 {
@@ -30,10 +29,6 @@ namespace MovieGateway
             ClipboardNotification.ClipboardUpdate += ClipboardNotification_ClipboardUpdate;
             _trayIcon.Visible = true;
 
-            UpdateManager manager = new UpdateManager(new Uri("http://pejacoding.bplaced.net/MovieGateway/updates.json"), "<RSAKeyValue><Modulus>r0liu3a9sg3IbGxXIgSzuS8hbRiRk+4UsS4W6WqgrVJi2QHjKo8/9JzXCGgWHMXYxrtcWGQCHO3lUboSxLa3rDSU8fX/tuykPBqkOzeJln4pKqb84fXQLB3LLjr5KdjV98DrjuD/TAV292m1ZutpvWRqX4vstuCg9FuI7+C3CnnjVIorRg2fQumj6Z4az5n06KSsnO6BXqDhG1DDqUFBGw7n6eJmp5Mipuy88OXDvwna71NnG2BlVrlEeJBddPuh3vkypPSrgxhkQTgvMT+s4ujqCfsDIXdC5+UvWBua9um8RUDzGIg7TPmfUTUH/pc2pJZnK7FmLRd1kGa2Nfq+uyXLBsrJEYwJdCo4PEHRpD7ZNZUIxXx4AmUpH0+Ez7FpW7JPkVUSbB+lREQfzpFdGZ03qx/qicK92Wfq5NxyxOjL0F61n20p+6apemOGMNmIMarQv5vtK6FIofZwNpMSF8eDFOsb6utgur1BLFOvMIUSNJQXUKtNmoJbLjDw+UUoc4nAXZcjPr/9kPvCLs0SjxUp+9Bhze/0ju9WdQNcKRGFemOwWSzj9BwWNIbOlxE8iHort1Kr/Lm5vDRTPWjEBwBpRBK+T7OvEkkOJxQRsAKMeCcG5RaFjhjdn3OB7LsL9j8N+REvyLySXbQim9/mvLZhTnApDVDDSNX86Dg85A30AEnPCtz4szikxsOoPx2KFOImhjM94RlOeF9/rVLFTRYUW4wSSABVv+U0+PXe+SuwATFnvEgJLFOR2Cffu1x97NPG4DyaEHvbLXE8pokxwZS5g9r2QXfCbHyMJGfc/a/StXc7rL7FCX/750LKm02QOFkSaDX/zN7U8UON3pYkH3pw5LuebKajZGmr2THd31vObUTrD8rDrKKrjQUyetw8qCQmBi+C+1GUyCgsVU5Q+QLd3XsmypsM/A6CruomlHCKI9CqhdLCJGniNt3QwoNgo4l+O6qyPijPHohIGNwUIqFZT3ExBGC6v4vWQL5o5Bo8QxycxbpZldiDSD3Y9kq+mg9QdTiYpspa97+CtXWhBgnB+sq5dPycl1xxOoYoTaen07+tM/GGmoLu8+W8goKxuWnAPlxPLqY+mdEsYgRfRqzAW8i3QJH80eMiom4TE1SmbsZgNS9M7sstiYYqTf7/pFxtC+4++g6vDpYGCih2K02WBJk6Fxz0MNEglxyK0SKpaBn1aRwsedhrBg1TK3AkTemgIXHvXKlXnTPXiP3hB8ri2MnxxG/a36EpPGteJV5L15ltaMBo552pYWl0e+IkSwF58qy/Bppdav2Zr8Uy5apzLZIZjX6SmVCgtKAZPFCorCY4qK9RoDOvyjApMpulW8AP0RQneb6XPvqQsHE3iQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>", new CultureInfo("en"));
-
-            var updaterUi = new UpdaterUI(manager, SynchronizationContext.Current) {UseHiddenSearch = true};
-            updaterUi.ShowUserInterface();
 
         }
 
